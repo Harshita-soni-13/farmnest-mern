@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+      'header-bg-image': "url('/src/assets/header-img.png')",
+      // 'card-bg-image':  "url('/src/assets/card-bg1.png')"
+      },
+      backgroundColor: {
+        'custom-yellow': '#EDDD5E',
+        'custum-gray': '#F8F7F0'
+      }, 
+      
+    },
   },
   plugins: [],
 }
