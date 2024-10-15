@@ -12,7 +12,7 @@ export default {
       },
       backgroundColor: {
         'custom-yellow': '#EDDD5E',
-        'custum-gray': '#F8F7F0'
+        'custum-gray': '#F8F7F0',
       }, 
       
     },
