@@ -5,7 +5,7 @@ import farmStar from '../../../assets/farmStar.png';
 
 export const FarmFields = () => {
   return (
-    <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-10">
+    <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-10 mb-10">
       <div className="flex items-center gap-2">
         <img className="w-9 h-8" src={farmStar} alt="Farm Star" />
         <img className="w-full md:w-72 lg:w-44" src={agriculture} alt="Agriculture" />

@@ -1,3 +1,4 @@
+import { Footer } from "../../components/footer/Footer"
 import { AboutUs } from "./aboutUs/AboutUs"
 import { Card } from "./cards/Card"
 import { FarmFields } from "./farm-fields/FarmFields"
@@ -10,6 +11,7 @@ export const Home = () => {
    <Card/>
    <AboutUs/>
    <FarmFields/>
+   <Footer/>
    </div>
   )
 }
