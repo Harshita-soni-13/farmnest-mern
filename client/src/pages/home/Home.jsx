@@ -1,5 +1,6 @@
 import { Footer } from "../../components/footer/Footer"
 import { AboutUs } from "./aboutUs/AboutUs"
+import { Blog } from "./blog/Blog"
 import { Card } from "./cards/Card"
 import { FarmFields } from "./farm-fields/FarmFields"
 import { Header } from "./header/Header"
@@ -11,6 +12,7 @@ export const Home = () => {
    <Card/>
    <AboutUs/>
    <FarmFields/>
+   <Blog/>
    <Footer/>
    </div>
   )

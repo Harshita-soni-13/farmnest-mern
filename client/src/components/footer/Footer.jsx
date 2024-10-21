@@ -40,7 +40,7 @@ export const Footer = () => {
             </div>
             <div className='grid grid-cols-12'>
                 <div className='items-center col-span-12 md:col-span-5  md:px-28'>
-                    <img  src={logo} alt="" />
+                    <img src={logo} alt="" />
                     <div className='font-normal mt-4'>Mauris sed molestie sem. Sed vel vestibulum
                         elit, non accumsan risus. In vitae sapien viverra
                         est Duo ei ullum inani senserit.</div>
@@ -66,24 +66,24 @@ export const Footer = () => {
                             <div className='mt-1 text-[14px]'>Mon - Fri: 9.00am - 5.00pm</div>
                             <div className='mt-1 text-[14px]'>Saturday: 10.00am - 6.00pm</div>
                             <div className='mt-1 text-[14px]'>Sunday Closed</div>
-                        </div> 
-                          <div className='col-span-4'>
+                        </div>
+                        <div className='col-span-4'>
                             <div className='font-medium text-[18px]'>Our Address</div>
                             <div className='mt-1 text-[14px]'>Old Westbury 256, New York <br />
-                            11201, United States</div>
+                                11201, United States</div>
                         </div>
                     </div>
-                    <hr className='mt-5'/>
+                    <hr className='mt-5' />
                     <div className='grid grid-cols-2 mt-4 mb-5'>
-                     <div className='flex gap-2'>
-                   <div className='text-[15px]'>Terms & Conditions</div>  
-                   <div  className='text-[15px]'>Privacy Policy</div>  
-                     </div>
-                     <div  className='text-[15px]'>
-                    Copyright © 2024 
-                      , All Rights Reserved.  
-                     </div>
-                     </div>
+                        <div className='flex gap-2'>
+                            <div className='text-[15px]'>Terms & Conditions</div>
+                            <div className='text-[15px]'>Privacy Policy</div>
+                        </div>
+                        <div className='text-[15px]'>
+                            Copyright © 2024
+                            , All Rights Reserved.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
