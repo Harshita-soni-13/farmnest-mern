@@ -1,12 +1,15 @@
 import './App.css'
+import OurCustomerSay from './pages/home/OurCustomerSay'
+import OurServices from './pages/home/OurServices'
+import WhatWeDo from './pages/home/WhatWeDo'
 
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      {/* <OurServices /> */}
+      {/* <OurCustomerSay /> */}
+      <WhatWeDo />
     </>
   )
 }
