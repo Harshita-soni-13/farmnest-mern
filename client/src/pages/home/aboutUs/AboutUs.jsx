@@ -1,16 +1,18 @@
 import wheat_icon from '../../../assets/wheat_icon.png'
 import eco_farms from '../../../assets/eco-farms.png'
 import special_equipment from '../../../assets/special_equipment.png'
-
+import aboutus_img from '../../../assets/aboutUs-img.jpeg'
+import aboutus_img1 from '../../../assets/aboutus_imgM.png'
 
 export const AboutUs = () => {
     return (
-        <div className="container mx-auto grid grid-cols-2 mt-5">
-            <div className=''>
-            
-            </div>
+        <div className="container mx-auto grid  grid-cols-1 md:grid-cols-2 gap-20 mt-12">
+           <div className='relative'>
+            <img className='rounded-md object-cover h-full  lg:h-[550px] w-full' src={aboutus_img} alt="" />
+            <img className='absolute h-40 bottom-0 right-0' src={aboutus_img1} alt="" />
+           </div>
             <div>
-                <div className='flex items-center w-36 gap-2 shadow-md  bg-white rounded-md mt-10'>
+                <div className='flex items-center w-36 gap-2 shadow-md  bg-white rounded-md mt-5 md:mt-10'>
                     <img src={wheat_icon} alt="" />
                     <div className='font-medium  text-center'>Who we are</div>
                 </div>
@@ -26,19 +28,19 @@ export const AboutUs = () => {
                 <div className='grid grid-cols-2 gap-4 mt-5'>
                     <div>
                         <img  src={eco_farms} alt="" />
-                        <div className='font-medium mt-3 text-lg'>
+                        <div className='font-medium mt-3 text-sm sm:text-lg'>
                             Eco Farms Worldwide
                         </div>
-                        <div className='font-normal mt-2'>
+                        <div className='font-normal mt-2 text-xs sm:text-base'>
                             There are many variations of pass
                             ages of lorem ipsum available
                             majority have suffered.</div>
                     </div>
                     <div>
                         <img className='w-24' src={special_equipment} alt="special_equipment" />
-                        <div className='font-medium text-lg mt-3'>
+                        <div className='font-medium text-sm sm:text-lg mt-3 '>
                             Special Equipment</div>
-                        <div className='font-normal mt-2'>
+                        <div className='font-normal text-xs mt-2 sm:text-base'>
                             There are many variations of pass
                             ages of lorem ipsum available
                             majority have suffered.</div>

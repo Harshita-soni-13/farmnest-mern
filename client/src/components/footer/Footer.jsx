@@ -32,7 +32,7 @@ export const Footer = () => {
                 <div className='flex  md:gap-5 sm:gap-2 '>
                     <div className='flex gap-2 items-center'><img className='p-1 bg-white rounded-full' src={call_icon} alt="" />
                         <div className='font-normal  text-sm md:text-base'>91-6267058448</div></div>
-                    <div className='flex gap-2 items-center'>
+                    <div className='flex gap-0 sm:gap-2 items-center'>
                         <img className='p-1 bg-white rounded-full' src={email_icon} alt="" />
                         <div className='font-normal text-sm md:text-base'>mstomar038@gmail.com</div>
                     </div>

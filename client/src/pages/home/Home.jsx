@@ -1,6 +1,6 @@
 import { Footer } from "../../components/footer/Footer"
 import { AboutUs } from "./aboutUs/AboutUs"
-import { Blog } from "./blog/Blog"
+import { Blog } from "./latestBlog/Blog"
 import { Card } from "./cards/Card"
 import { FarmFields } from "./farm-fields/FarmFields"
 import { Header } from "./header/Header"

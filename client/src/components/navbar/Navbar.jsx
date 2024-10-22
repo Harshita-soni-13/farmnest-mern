@@ -13,7 +13,7 @@ export const Navbar = () => {
     };
 
     return (
-        <div className="container-fluid flex justify-between items-center  bg-transparent">
+        <div className="container-fluid flex justify-between items-center bg-transparent">
             {/* Logo and Navigation Links */}
             <div className='flex items-center space-x-8'>
                 <div>
@@ -30,31 +30,32 @@ export const Navbar = () => {
             </div>
 
             {/* Phone and Button Section */}
-            <div className='flex items-center space-x-2 sm:space-x-3 '>
+            <div className='hidden md:flex items-center space-x-2 sm:space-x-3'>
                 <img className='h-6 sm:h-8' src={phone_img} alt="phone_img" />
                 <div className='text-white text-xs sm:text-sm lg:text-base'>
                     Call Us Now <br />
                     6267058448
                 </div>
-                <div className='relative flex flex-col bg-custum-gray rounded-bl-2xl pt-3  pb-3 '>
+                <div className='relative flex flex-col bg-custum-gray rounded-bl-2xl pt-3 pb-3'>
                     <img className='absolute top-0 left-[-39px] h-10' src={corner_img} alt="corner_img" />
-
-                    <div
-                        className='bg-custom-yellow rounded md:rounded-full px-4 py-3 ml-4 flex items-center gap-2'
-                    >
+                    <div className='bg-custom-yellow rounded md:rounded-full px-4 py-3 ml-4 flex items-center gap-2'>
                         <button className='text-xs sm:text-sm lg:text-base'>Get In Touch</button>
                         <img className='inline h-4' src={arrow} alt="arrow-icon" />
                     </div>
-
                     <img className='absolute bottom-[-40px] right-0 h-10' src={corner_img2} alt="corner_img2" />
                 </div>
-
             </div>
 
-            {/* Mobile Menu Icon */}
-            <div className='md:hidden'>
+            {/* Mobile Section - Get In Touch + Hamburger Icon */}
+            <div className="flex md:hidden items-center justify-end w-full space-x-2">
+                {/* Get In Touch button for small screens */}
+                <div className='bg-custom-yellow rounded-full px-4 py-2 flex items-center gap-2'>
+                    <button className='text-xs sm:text-sm'>Get In Touch</button>
+                    <img className='inline h-4' src={arrow} alt="arrow-icon" />
+                </div>
+
+                {/* Hamburger Icon */}
                 <button onClick={toggleMenu}>
-                    {/* Hamburger Icon (three bars) */}
                     <div className="space-y-1">
                         <div className="w-6 h-0.5 bg-white"></div>
                         <div className="w-6 h-0.5 bg-white"></div>

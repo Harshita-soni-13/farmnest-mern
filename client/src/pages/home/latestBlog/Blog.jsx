@@ -51,10 +51,10 @@ export const Blog = () => {
           <div className='font-medium text-sm'>Latest Blog</div>
       </div>
       <div className='flex justify-between'>
-      <div className='font-medium text-5xl pb-5 pt-3'>Latest posts & articles</div> 
-          <div className='flex gap-2 items-center'>
-            <img className='py-3 h-9 px-4 border' src={right_arrow} alt="" />
-            <img className='py-3 h-9 px-4 border' src={left_arrow} alt="" />
+      <div className='font-medium text-3xl sm:text-4xl md:text-5xl pb-5 pt-3'>Latest posts & articles</div> 
+          <div className='flex gap-1 sm:gap-2 items-center sm:me-0 me-2'>
+            <img className='py-3 h-9 px-1 sm:px-2 md:px-4 border' src={right_arrow} alt="" />
+            <img className='py-3 h-9 px-1 sm:px-2 md:px-4 border' src={left_arrow} alt="" />
           </div>
         </div>
         <div  className="grid md:grid-cols-3 sm:grid-cols-2  gap-6">
