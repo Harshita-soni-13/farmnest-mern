@@ -4,6 +4,9 @@ import { Blog } from "./latestBlog/Blog"
 import { Card } from "./cards/Card"
 import { FarmFields } from "./farm-fields/FarmFields"
 import { Header } from "./header/Header"
+import OurServices from "./ourServices/OurServices"
+import OurCustomerSay from "./ourCustomers/OurCustomerSay"
+import WhatWeDo from "./whatwedo/WhatWeDo"
 
 export const Home = () => {
   return (
@@ -12,6 +15,9 @@ export const Home = () => {
    <Card/>
    <AboutUs/>
    <FarmFields/>
+   <OurServices/>
+   <OurCustomerSay />
+   <WhatWeDo />
    <Blog/>
    <Footer/>
    </div>
